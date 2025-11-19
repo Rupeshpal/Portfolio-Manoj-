@@ -246,7 +246,6 @@ export default function Home() {
           </motion.div>
         </motion.section>
 
-        {/* Courses Grid */}
         <motion.section
           variants={containerVariants}
           initial="hidden"
@@ -267,7 +266,7 @@ export default function Home() {
               const Icon = course.icon;
               return (
                 <motion.div
-                  key={course.id}
+                  key={course.id} 
                   variants={itemVariants}
                   custom={index}
                   whileHover={{ scale: 1.03, y: -8 }}
