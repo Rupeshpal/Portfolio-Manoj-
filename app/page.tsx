@@ -229,8 +229,8 @@ export default function Home() {
                 Welcome to my professional portfolio! This portfolio showcases my journey through the
                 <span className="font-semibold text-blue-600 dark:text-blue-400"> Bachelor of Computer Science</span> program at
                 <span className="font-semibold text-purple-600 dark:text-purple-400"> Eastern Institute of Technology (EIT)</span>.
-                Here you'll find detailed information about the courses I've completed, the skills I've
-                acquired, and the projects I've worked on throughout my studies.
+                Here you&apos;ll find detailed information about the courses I&apos;ve completed, the skills I&apos;ve
+                acquired, and the projects I&apos;ve worked on throughout my studies.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -266,7 +266,7 @@ export default function Home() {
               const Icon = course.icon;
               return (
                 <motion.div
-                  key={course.id} 
+                  key={course.id}
                   variants={itemVariants}
                   custom={index}
                   whileHover={{ scale: 1.03, y: -8 }}
