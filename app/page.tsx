@@ -164,7 +164,7 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="text-xl text-gray-600 dark:text-gray-400 mb-10"
           >
-            Bachelor of Computer Science
+            Bachelor of Computing systems
           </motion.p>
 
           <motion.div
